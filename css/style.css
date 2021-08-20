@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
 }
 
 /* ТЗ: Найти альтернативу */
@@ -62,6 +61,7 @@
 }
 
 .navbar .menu li a{
+    display: block;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -74,7 +74,7 @@
 }
 
 .navbar.sticky .menu li a:hover{
-    color: crimson;
+    color: #444;
 }
 
 /* menu btn styling */
@@ -101,7 +101,7 @@
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
-    transition: all 0.4s ease;
+    transition: all 0.7s ease;
 }
 
 .scroll-up-btn.show{
